@@ -11,6 +11,10 @@ The data were studied taking into account some assumptions:
 - The reference genome was the hg19.37
 - High-quality sequencing data is available – probabilistic modelling of SNPs is not necessary
 
+Here you can find the [Workflow](https://github.com/MajerIrene/Autosomic-Diagnosis/blob/main/Workflow.md) used fo the analysis.
+
+Here you can find the final [Report](https://github.com/MajerIrene/Autosomic-Diagnosis/blob/main/Genomics_report.md).
+
 ## Technologies Used
 - bowtie2
 - SAMtools 
