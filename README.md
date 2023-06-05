@@ -1,2 +1,35 @@
-# Autosomic-Diagnosis
-A simple workflow for molecular diagnosis of rare mendelian genetic disorders - Genomics project @Unimi
+# Molecular diagnosis of rare Mendelian autosomic disease 
+> This is a simple workflor for diagnosis of autosomic disease from exon sequencing data, a genomic technique for sequencing all of the protein-coding regions of genes in a genome. It's a cheaper alternative to other technologies such as WGS, although is less precise in capturing complex variants. 
+> In this project the aim is to identify the correct diagnosis, having at disposal the exome sequencing data of an individual and of his parents.
+
+## General Information
+> The analysis was performed over data provided during Genomics course at University of Milan. 
+> The data were studied taking into account some assumptions:
+- Disease-causing variant are located on chromosome 16
+- A set of the possible diseases was given a priori
+- The parents were supposed to be heathy
+- The reference genome was the hg19.37
+- High-quality sequencing data is available – probabilistic modelling of SNPs is not necessary
+
+## Technologies Used
+- bowtie2
+- SAMtools 
+- FastQC
+- Qualimap
+- Bedtools
+- Freebayes
+- VEP
+- UCSC genome browser
+
+
+
+
+## Contact
+Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+
+
+<!-- Optional -->
+<!-- ## License -->
+<!-- This project is open source and available under the [... License](). -->
+
+<!-- You don't have to include all sections - just the one's relevant to your project -->
